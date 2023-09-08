@@ -2,6 +2,7 @@ version: '3'
 services:
   node-app:
     container_name: express-node-app-con
+    image: mohamedbayoumy42/node-mongo-express-nginx
     depends_on:
       - mongo
       - redis
